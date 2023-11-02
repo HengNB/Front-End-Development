@@ -1,0 +1,270 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #9d97a9;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Alata', sans-serif;
+	color: #453e6e;
+}
+.banner-bg {
+	background-image: url(img/9-SCENE.svg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+}
+.btn {
+	padding: 13.5px 36px;
+	font-weight: 700;
+	border-radius: 30px;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.btn-success {
+	background-color: #5fcf80;
+	border-color: #5fcf80;
+}
+.navbar-nav{
+	position: relative;
+	margin-left: 400px;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #5fcf80;
+}
+.bg-light{
+	background-color: #f2faff !important;
+}
+.bg-tutor {
+	background-color: #f2faff;
+	transition: all 0.3s ease;
+}
+.bg-tutor:hover {
+	cursor: pointer;
+	background-color: #5fcf80;
+	color: #FFF;
+}
+.bg-tutor:hover h6 {
+	color: #FFF;
+}
+.bg-tutor i {
+	font-size: 36px;
+	color: #5fcf80;
+}
+.bg-tutor:hover i {
+	color: #FFF;
+}
+.nb i {
+	font-size: 30px;
+	color: #fff;
+}
+.img-radius img {
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	width: 150px;
+	height: 150px;
+}
+.page-wrape {
+	overflow: hidden;
+}
+.owl-carousel .owl-item img {
+	display: inline-block !important;
+	width: auto;
+}
+
+
+@media(max-width:1368px) {
+	.banner-bg {
+		background-position: center right -300px;
+		background-size: cover;
+	}
+	}
+	@media(max-width:1168px) {
+	.banner-bg {
+		background-position: center right -380px;
+	}
+	}
+	@media(max-width:768px) {
+	.banner-bg {
+		background-position: bottom -300px right -290px;
+	}
+	}
+	@media(max-width:568px) {
+	.banner-bg {
+		background-position: bottom -330px right -310px;
+	}
+}
+
+/*--------------------------------------------------------------
+# Founder
+--------------------------------------------------------------*/
+.Title{
+	font-family: DM Sans,Helvetica,Arial,sans-serif;
+	font-weight: bold;
+	color: #5fcf80;
+}
+  
+.section2 .btn.lg{
+	margin-top: 10px;
+	cursor: pointer;
+	border-radius: 30px;
+	background-color:#5fcf80 ;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 10px 20px;
+}
+  
+.section2 .btn.lg:hover{
+	color: black;
+}
+  
+.w-full{
+	width: 100%;
+}
+
+img{
+	vertical-align: middle;
+	border-style: none;
+	object-fit: cover;
+	border-radius: 40px;
+}
+.FIcon{
+	text-align: center;
+	margin: 20px auto;
+}
+  
+.FIcon a{ 
+	cursor: pointer;
+	font-size: 25px;
+	color: #585555;
+	margin-right: 15px;
+}
+  
+.FIcon a:hover{
+	color:#5fcf80;
+}
+  
+.Team{
+	font-family: DM Sans,Helvetica,Arial,sans-serif;
+	font-weight: bold;
+	color: #5fcf80;
+}
+  
+
+/*--------------------------------------------------------------
+# Our Tutors
+--------------------------------------------------------------*/
+.tutor1{
+	margin-top: -130px;
+}
+.OurTutor{
+
+	padding-bottom: 20px;
+}
+.TIcon{
+    margin: 20px auto;
+}
+.TIcon a{ 
+    cursor: pointer;
+    background-color:  transparent;
+    font-size: 20px;
+    color: #585555;
+	margin-right: 15px;
+
+}
+.TIcon a:hover{
+    color:#5fcf80;
+}
+.row{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.tutor1 img{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+	border: #5fcf80 3px solid;
+	
+}
+.row .col-md-12{
+	margin-top: 350px;
+}
+
+/*--------------------------------------------------------------
+# Join Us
+--------------------------------------------------------------*/
+
+input[type=file]::file-selector-button {
+	border: none;
+	color: rgb(5, 5, 5);
+	justify-content: center;
+}
+  
+input[type=file]::file-selector-button:hover {
+	background-color:#5fcf80;
+}
+
+.filesubmit label{
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	transition: transform .2s ease-in-out;
+	transition: transform .2s ease-in-out, 
+}
+
+/*--------------------------------------------------------------
+# Check Status
+--------------------------------------------------------------*/
+/* Style the search field */
+form.example input[type=text] {
+	padding: 10px;
+	font-size: 17px;
+	border: 1px solid grey;
+	float: left;
+	width: 30%;
+	background: #f1f1f1;
+	margin-left: 20px;
+}
+  
+/* Style the submit button */
+form.example button {
+	float: left;
+	width: 10%;
+	padding: 10px;
+	background: #2196F3;
+	color: white;
+	font-size: 17px;
+	border: 1px solid grey;
+	border-left: none; /* Prevent double borders */
+	cursor: pointer;
+}
+  
+form.example button:hover {
+	background: #0b7dda;
+}
+
+  
+/* Clear floats */
+form.example::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+@media (max-width: 500px){
+
+	/* Style the search field */
+	form.example input[type=text] {
+		
+		width: 70%;
+		
+	}
+	
+	/* Style the submit button */
+	form.example button {
+		
+		width: 20%;
+		
+	}
+  
+}
